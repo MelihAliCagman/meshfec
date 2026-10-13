@@ -1,0 +1,8 @@
+build/
+.cache/
+*.o
+*.a
+.vscode/
+notlar/
+ders_notlari/
+CLAUDE.md
