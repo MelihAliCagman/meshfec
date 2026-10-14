@@ -6,7 +6,7 @@ cevaplıyorsun. Bir adımı bitirmeden sonrakine geçme.
 | Adım | Konu | Yazacağın dosyalar | Bitti |
 |------|------|--------------------|-------|
 | 1 | UDP soketi: iki program konuşuyor | `apps/receiver.cpp`, `apps/sender.cpp` | [x] |
-| 2 | Paket kaybı: kaybı simüle et, FEC'siz kare teslimini ölç | `include/meshfec/channel.hpp`, `apps/loss_demo.cpp` | [ ] |
+| 2 | Paket kaybı: kaybı simüle et, FEC'siz kare teslimini ölç | `include/meshfec/channel.hpp`, `apps/loss_demo.cpp` | [x] |
 | 3 | En basit FEC: XOR paritesi (1 kaybı kurtar) | `include/meshfec/xor_parity.hpp`, `tests/test_xor_parity.cpp` | [ ] |
 | 4 | Galois alanı GF(256) | `include/meshfec/gf256.hpp`, `tests/test_gf256.cpp` | [ ] |
 | 5 | Reed-Solomon: birden çok kaybı kurtar | `include/meshfec/rs_erasure.hpp`, `tests/test_rs.cpp` | [ ] |
